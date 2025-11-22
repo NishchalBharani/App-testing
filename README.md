@@ -512,3 +512,29 @@ Expected element to have text content:
 Apartment B
 Received:
 Apartment Sorting Feature Correctly handling the condition of only one sort option can be appled at a time
+
+---
+Questoin 
+
+QUESTION DESCRIPTION
+目
+Task: 212
+Bugfix: Accessibility Options
+Task Description
+View al
+The Travel application, built with a React frontend and a Node.js backend, allows users to browse and book apartment listings for travel and short-term stays. To support a more inclusive experience, the app provides an Accessibility Settings page, located at the route /accessibility, where users can enable visual and navigation aids. This page can be accessed by opening the hamburger menu in the navigation bar and selecting Accessibility Settings.
+The goal of this settings page is to allow users, especially those with visual or motor impairments, to customise their experience through two key features:
+* High Contrast Mode
+* Keyboard Navigation Shortcuts
+Currently, both features are either buggy, incompletely implemented, or non-functional.
+The task involves frontend changes only, ensuring that these accessibility features work reliably, can be enabled/disabled through both Ul and keyboard shortcuts, and that their state persists across sessions using the existing application preference mechanism (e.g., localStorage or user profile storage).
+Note: The code repository may intentionally contain other issues that are unrelated to this specific task. Please focus only on the described task requirements and addres bugs or errors directly associated with them.
+Issue: Accessibility options do not funetion as expected through the Ut or keyboard shortcuts.
+Steps to Reproduce:
+* Log in as User 1:
+Email: user@mail.com
+Password: user123
+* Open the hamburger menu and navigate to the Accessibility Settings page (/accessibllity).
+* Try the following actions:
+Mode
+* Press ' to enable/disable High Contrast Mode.
