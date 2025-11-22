@@ -74,3 +74,187 @@ Coupons seeded successfully
 Apartments seeded succefully
 Bookings seeded successfully
 Addded 100 colns to all users apa notice
+
+
+
+
+---- NEW PROMPT 
+
+
+EXPLORER: CHALLENGE
+> 
+frontend
+BRU
+日….
+node_modules
+public
+STC
+assests
+components
+admin
+Apartment
+Host
+Payment support
+User
+AccessibilityOptions.css
+AccessibilityOptions.jsx
+Currency.js
+Navbar.css
+Navbar.jsX
+ReportListingButton.css
+ReportListingButton.jsx
+SearchBar.css
+SearchBarJ5x
+SortButtonjsk
+StarRating.CsS
+StarRating.jsX
+contexts
+data
+hooks
+pages styles
+test
+App.css
+App-jS
+index ess
+indexjs logo.svg
+reportWebVitalsjs
+setupTests js
+utilsjs
+eslintrejson
+.gitignore
+8040
+C Fetching data for better TypeScript IntelliSense
+READMEmd B
+Na barjşx
+Imipe % • BOIOFBACROGE
+inport React, ( usestate I fron "react*; inport 4 Nodal, Button) fres "react-botstre*: inport (Fasort) fron "react-loons/te*;
+import ( usesort ) fron ../conterts/sorttontes inport ®./Navbar.css;
+const SortButton = 0 = /
+const [shoaNodal, setshonodat] = usestate(fatse);
+16
+const ( sortoption: direction, setsurtytion: setirectin, surtieet const
+(tempSortOption, settenportiption) = usstatifst);
+11
+const [tempSortDirection, settenporttrection) = aston(*):
+12
+13
+14
+15
+const handlesortclick = 0 = /
+setShowNodat(true);
+setTempSortoption(direction);
+setTempSortDirection(option);
+17
+18
+const
+handleSortoptionCLick = (option) • (
+if (tempSortoption ses option) ( if (tenpSortDirectfon ese se*) ( setTempSortOirection(*tese®);
+I etse f
+setTenpSortOtrection(®asc®);
+24
+20.
+I etse (
+setTenpSortoption(option);
+setTempSortDirection("tese*);
+｝
+30
+Problems
+Output
+Debug Console
+http://locathost:3000
+[1]
+Local:
+nttp://172.19.0.2:0080
+On Your Retwork:
+(1)
+(2) Note that the development buttd te not optinteed.
+(2) To create a production bulta, use aur nur suitée (al nebpack corpited
+
+CHALLENGE
+frontend
+4G0e…
+› •node modules
+> public
+STC
+assests components
+›10 admin
+* Aparient
+•Host
+Payment
+•support
+User
+Accessibility Options.css AccessibilityOptionsjsx
+Currencyjs Navbar.css
+Navbarjsx
+Reportlisting ReportlistingButton.css ReportlistingButtonjs
+SearchBar.css SearchBarjsx SortButtonjsx
+Starfatingess
+StarRatingjsx
+contexts
+KeyboardNavigationContextjs /onAuthjs
+/SortContextis
+/themeContextis
+* useCurrencyjs
+data
+hooks pages styles
+rest
+App.css
+Appjs
+indexcss indexjs logo.svg
+Fetching data for better TypeScript InteliSense
+Ф0A0
+README.mdB
+avbar jsx
+*Sortuttoni X
+const SortButton = ()= 1
+•sontoneta
+const handleAppLySort=()=/
+setDirection(tempSortOption);
+35
+setOption (tempSortDirection);
+setShowNodaL(false);
+36
+37
+38
+39
+41
+42
+const getSorticon = (option)=(
+if(tempSortoption* option) (
+if (option =:"Price)(
+return "";
+}else if (option +=="AverageRating")(
+retur "*:
+return tempSortDirection="asc"?*:;
+40
+return ";
+49.
+50
+51
+return (
+«div>
+‹FaSort
+classlane=icon
+53
+size=(24} onCLick=(nandleSortclick}
+data-testid="sort-button"
+57.
+58
+«Hodalshou=(showRodat)onkide=(=> setsnawodat(fotse))
+«Hodal.Header closeButtona
+«Modat.TittesSartApartaents/nost.Titte>
+60
+</HodaL. Header>
+ports
+Outout
+Debug Console
+Problems
+http://hocathost:3800
+(1)
+Local:
+[1)
+On Your Network: http://172.19.8.2:3000
+(1)Note that the developeent buttd1s not optiadzed.
+[11 To create a production butta, usenoa nun bultd.
+(1) rebpackcapiled successfutty
+
