@@ -258,3 +258,58 @@ On Your Network: http://172.19.8.2:3000
 [11 To create a production butta, usenoa nun bultd.
 (1) rebpackcapiled successfutty
 
+--- New prompt , 
+AI bro , i guess its the continuatioin of the same part or code base
+
+const SortButton = 0)
+Buttonja X
+SortConterts
+65
+<uL classlame=®sort-options*>
+("Price", Average Rating", Title), ap(option) → (
+«L1
+EV PROJECT FLES NSTRUCTIONGND
+07
+68
+key=loption}
+classNames"sort-option $tempSortoption * option? active-sort: *) onCLick=10) => handleSortoptiontlick(optlon)
+«Button variant="Link" classlanes"sort-button" data-testio=("sort-option-Stoption.toLonerCaseD.reptace**)/
+74
+75
+79
+80
+«div>loption}</diva
+«div>(getSortIcon(optloo)</divs
+‹/Button>
+</LL>
+))}
+</uL>
+</NodaL. Body> «Modat. Footer>
+«Button variant-"prinary* oncticke(handtepptySort) dat-testicappy-sert-stters
+Apply Sort </Buttons </Hodat.Footer»
+</Hodal>
+</div>
+}:
+93
+export default Sortbutton;
+
+
+
+const value = !
+soptoption: sortoption, setSortoption: buggedSetSortOption, sortirection: sortDirection, setSortDirection,
+37
+38
+39
+48
+return «SortContext. Provider values (value)> (chttaren) /sartontert.Providen
+SortContext.propTypes = /
+"children*: PropTypes,node.dsRequired
+export const usesort ()f
+const context = useContext (SortContext);
+if (Icontext) {
+throw new Error"usesort must be used within a SortProvider®);
+51
+return ( sortiption: context.sortoption, setSortiption: context. setsartoption, sortDirection: context. sortoirection, setSortDirection: context.setsortoirection,
+
+
+Lets do it 
