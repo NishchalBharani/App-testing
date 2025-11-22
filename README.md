@@ -486,3 +486,29 @@ return (
 export default ApartmentList;
 ports
 --- check and do accordingly
+
+--- NEW PROMPT BUG FIX 
+Bugfix: Apartment Sort
+7 tests ran in 4.72s
+x Apartment Sorting Feature Sorting by price is correctly working
+Error: expectelement). toHaveTextContent()
+Expected element to have text content:
+Apartment B
+Received:
+x Apartment Sorting Feature Sorting by rating is correctly working
+Error: expectelenent). toHaveTextContent()
+Expected element to have text content:
+Apartment B
+Received:
+X Apartment Sorting Feature Sorting by tite is correctly working
+Error: expect (elenent). tolaveTextontent)
+Expected element to have text content:
+Apartment F
+Received:
+Onom
+× Apartment Sorting Feature Correctly toggling between ascending and descending when clicking the same sort option
+Error: expect (element). toHaveTextContent()
+Expected element to have text content:
+Apartment B
+Received:
+Apartment Sorting Feature Correctly handling the condition of only one sort option can be appled at a time
