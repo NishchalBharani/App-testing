@@ -444,3 +444,45 @@ ports
 
 
 --- sort button code -done modify it accordinglt 
+
+
+bro this is a new component for apartment list 
+
+
+function ApartmentList)
+* SortButionisx
+a ApertreniListjpe X
+const
+sortedApartnents = [...apantnents),sontl(e, D) → 1
+if (Idirection)
+return o;
+41
+43
+44
+Let comparison = 0;
+switch (direction) |
+case "Price":
+comparison = a.averageRating - b.averageRating;
+break;
+case "Average Rating":
+comparison = a.price • b.price; break;
+case "Title":
+comparison = b.titte,localeCompare(a.titte);
+break; default: return 0;
+51
+52
+return option s== "asc"? -comparison : comparison;
+1):
+return (
+«div data-testid-"apartnent-nane classlane*aparteent-usts
+(sortedApartments.nap(apartent) →> (
+«Apartment key=(apartuent.1d) apartnente(apartuent) s
+60
+61
+62
+63
+):
+65
+export default ApartmentList;
+ports
+--- check and do accordingly
