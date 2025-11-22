@@ -313,3 +313,134 @@ return ( sortiption: context.sortoption, setSortiption: context. setsartoption, 
 
 
 Lets do it 
+
+
+BRO     this is a new sortbutton code 
+
+import React, fusestate ) fron "react"; import (Modal, Button from "react-bootstrap: import (Fasort) from "react-icons/fa";
+import (
+useSort } from "../contexts/Sorttontext*;
+import " ./Navbar.css";
+# PROJECT FLES INSTRUCTIONS.nd
+const SortButton = () => 1
+const [showodal, setshowtodal] = usestate(false):
+const {sortoption: direction,
+setsortoption: setDirection, sortbirection: option, setfortiretton: set
+10
+const [tempSortOption, settemportoption) = usestate (utt;
+11
+const [tempSortDirection, settempontDirection] = usestate *ass):
+12
+13
+const handleSortClick = () => {
+14
+setShowModal(true);
+15
+setTempSortOption(direction);
+16
+set TempSortDirection (option);
+17
+}:
+18
+19
+20
+21
+22
+23
+24
+const handleSortoptionCLick = (option) = {
+console. log("options", option)
+if (tempSortoption === option) {
+if (tempSortDirection === asc) {
+setTempSortDirection("desc);
+} else {
+setTempSortDirection("asc");
+25
+26
+27
+} else f
+setTempSortOption(option);
+setTempSortDirection("desc);
+29
+33
+const handleApplysort = () = 1
+setirectiontemnSaetintian?•
+ports
+
+[5:07 pm, 22/11/2025] Nischal Xelp: const SortButton = ()
+@ SortButtonjax X
+const handleAppLySort = () = 1
+setDirection(tempSortoption);
+setoption (tempSortDirection): setShowModal (false);
+SortContertis
+I PROJECT FILES JNSTRUCTIONG.ed
+const
+getSortIcon = (option) => {
+if (tempSortoption === option) {
+if Coption === "Price*) (
+return "p':
+1 else if (option = "Average Rating*) (
+return "i*;
+return tenpSortDirection sss 'asc* ? 4° : 44
+}
+return "*;
+52
+2g
+55
+50
+59
+60
+62
+62
+return (
+<div>
+‹FaSort
+className=®icon®
+size=(24)
+onCLick=(handleSortCLick}
+data-testid="sort-button®
+«Hodal show=(showHodat) onHides => setShoodat (fatse))>
+«Hodal. Header closeButtons
+«Hodal. Title›Sort Apartmentse/todat.Tittes </ModaL. Header>
+«Hodal. Body> sul classane=®sort-options> (l"Price®,
+"Average Rating®, Titte/ap(option) • (
+[5:07 pm, 22/11/2025] Nischal Xelp: Wait
+[5:08 pm, 22/11/2025] Nischal Xelp: CUL classwames"sort-options">
+1[Price", "Average Rating, Title],naplloptdon) (
+eLi key=(option)
+className= sort-option StempSortoption === option? "active-sort*: *')
+69
+onClick=1() =
+handLeSortoptionCLick(option)}
+70
+71
+72
+73
+74
+«Button variant="Link" className="sort-button"
+data-testid=("sort-option-Sfoption.toLoerCase() reptace:)
+<div>{getSortIcon(option))k/divs
+</Buttons
+))}
+88
+3388
+83
+84
+86
+87
+98
+91
+o2
+93
+</Nodal. Body> «Hodal. Footer>
+«Button variant="primary onclick=(handleApplysort data-testio-apply-sort-tutters
+Apply Sort </Button>
+</Hodal. Footer>
+</Hodal>
+</div>
+):
+export default SortButton;
+ports
+
+
+--- sort button code -done modify it accordinglt 
